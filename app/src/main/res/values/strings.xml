@@ -9,5 +9,20 @@
     <string name="fragment_favor">찜</string>
     <string name="fragment_my_page">마이페이지</string>
     <string name="fragment_empty_1">미정</string>
+    
+    <!-- home_fragemnt -->
+    <string name="home_brand">브랜드 로고</string>
+    <string name="home_fashion">패션</string>
+    <string name="home_environment">환경</string>
+    <string name="home_ingredient">식품</string>
+    <string name="home_stationery">문구</string>
+    <string name="home_hot_issue">의 핫한 눈치 이슈</string>
+    <string name="home_more">더보기</string>
+    <string name="home_article">기사제목</string>
+    <string name="home_nonchi">눈칫밥을 가장 많이 먹은 브랜드는?</string>4
+    <string name="home_interest">내가 가장 관심 가질 만한 소식!</string>
+    <string name="home_market">마켓컬리</string>
+    <string name="home_comment">모든 이의 관심을 모은 변화의 댓글</string>
+    <string name="home_change_comment">이번 파리바게트\n 어쩌구 \n ooooooo</string>
 
 </resources>
