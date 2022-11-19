@@ -9,6 +9,35 @@
     <string name="fragment_favor">찜</string>
     <string name="fragment_my_page">마이페이지</string>
     <string name="fragment_empty_1">미정</string>
+    
+    <!-- home_fragemnt -->
+    <string name="home_brand">브랜드 로고</string>
+    <string name="home_fashion">패션</string>
+    <string name="home_environment">환경</string>
+    <string name="home_ingredient">식품</string>
+    <string name="home_stationery">문구</string>
+    <string name="home_hot_issue">의 핫한 눈치 이슈</string>
+    <string name="home_more">더보기</string>
+    <string name="home_article">기사제목</string>
+    <string name="home_nonchi">눈칫밥을 가장 많이 먹은 브랜드는?</string>4
+    <string name="home_interest">내가 가장 관심 가질 만한 소식!</string>
+    <string name="home_market">마켓컬리</string>
+    <string name="home_comment">모든 이의 관심을 모은 변화의 댓글</string>
+    <string name="home_change_comment">노동자를 지켜야 한다고 생각해요. \n소비자가 행동해야합니다.</string>
+    <string name="home_data">2022.11.02</string>
+    <string name="paris">파리바게트</string>
+    <string name="home_paris_intro">파리바게뜨는 대한민국 베이커리 시장을 \n 선도해온 프리미엄 베이커리 브랜드입니다.</string>
+    <string name="home_title_article1">죽음의 SPC ‘빠바’ 공장, 불매운동</string>
+    <string name="home_content_article1">지난 15일 산재 사망사건이 발생한 경기 평택시 파리바게뜨 제빵 공장에서 각종 안전 수칙이 제대로 지..</string>
+    <string name="home_title_article2">파리바게트 불법파견 실태</string>
+    <string name="home_content_article2">파리바게뜨가 가맹점 근무 제빵기사를 불법파견(무허가 파견, 파견대상 업무 위반)으로 사용한 것을 확인하..</string>
+    <string name="home_title_article3">위험한 파리바게뜨 - 이탈하는 가맹점</string>
+    <string name="home_content_article3">생계를 위해 브랜드를 바꿨다고 `보복출점`해 기존 가맹점을 궁지에 몬 `아산빵집사건`으로 국민적 공분을 산 SPC그룹 파리바게트...</string>
+
+
+    <!-- Favor Fragment -->
+    <string name="favor_title">브랜드 찜</string>
+    <string name="favor_int">%d</string>
 
     <!-- posting -->
     <string name="posting_title">눈치 이슈</string>
