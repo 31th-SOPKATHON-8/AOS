@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <group>
+    <clip-path
+        android:pathData="M0,0h24v24H0z"/>
+    <path
+        android:pathData="M12,24c6.627,0 12,-5.373 12,-12S18.627,0 12,0 0,5.373 0,12s5.373,12 12,12z"
+        android:fillColor="#FF6C22"/>
+    <path
+        android:pathData="M6.486,7.133a2.59,2.59 0,0 1,2.59 2.59v3.886a2.59,2.59 0,0 1,-2.59 2.63,2.59 2.59,0 0,1 -2.59,-2.59V9.764a2.58,2.58 0,0 1,2.59 -2.63z"
+        android:fillColor="#fff"/>
+    <path
+        android:pathData="M7.578,8.681a1.507,1.507 0,0 1,1.508 1.498V12.1A1.507,1.507 0,0 1,7.578 13.6,1.498 1.498,0 0,1 6.081,12.1V10.17A1.497,1.497 0,0 1,7.578 8.68z"
+        android:fillColor="#000"/>
+    <path
+        android:pathData="M11.879,7.133a2.59,2.59 0,0 1,2.59 2.59v3.886a2.59,2.59 0,0 1,-2.59 2.59,2.6 2.6,0 0,1 -2.6,-2.59V9.723a2.59,2.59 0,0 1,2.6 -2.59z"
+        android:fillColor="#fff"/>
+    <path
+        android:pathData="M12.961,8.681a1.507,1.507 0,0 1,1.508 1.498V12.1A1.507,1.507 0,0 1,12.96 13.6a1.498,1.498 0,0 1,-1.497 -1.498V10.17A1.498,1.498 0,0 1,12.96 8.68z"
+        android:fillColor="#000"/>
+    <path
+        android:pathData="M9.096,4.513H7.022c-1.09,0 -1.973,0.883 -1.973,1.973v1.163c0,1.09 0.883,1.973 1.973,1.973h2.074c1.09,0 1.973,-0.883 1.973,-1.973V6.486c0,-1.09 -0.883,-1.973 -1.973,-1.973z"
+        android:fillColor="#FF6C22"/>
+    <path
+        android:pathData="M16.179,4.958c-1.558,-1.74 -3.248,-0.162 -6.344,4.3a1.295,1.295 0,0 1,-1.305 0.587c-1.204,-0.273 -2.166,-1.073 -3.481,-3.34"
+        android:strokeWidth="1.89"
+        android:fillColor="#00000000"
+        android:strokeColor="#000"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="m7.7,17.656 l2.883,-0.668"
+        android:strokeWidth="1.61"
+        android:fillColor="#00000000"
+        android:strokeColor="#000"
+        android:strokeLineCap="round"/>
+  </group>
+</vector>
