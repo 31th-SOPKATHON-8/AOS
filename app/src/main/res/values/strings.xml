@@ -10,4 +10,10 @@
     <string name="fragment_my_page">마이페이지</string>
     <string name="fragment_empty_1">미정</string>
 
+    <!-- Favor Fragment -->
+    <string name="favor_title">브랜드 찜</string>
+    <string name="favor_marcket_kurly">마켓컬리</string>
+    <string name="favor_comment_cnt">253</string>
+    <string name="favor_like_cnt">155</string>
+
 </resources>

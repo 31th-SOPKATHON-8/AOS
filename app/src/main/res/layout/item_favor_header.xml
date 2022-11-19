@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp">
+
+        <ImageView
+            android:id="@+id/iv_favor_header_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shape_grey900_fill_circle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_favor_header_border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shape_orange_line_circle"
+            app:layout_constraintBottom_toBottomOf="@id/iv_favor_header_image"
+            app:layout_constraintEnd_toEndOf="@id/iv_favor_header_image"
+            app:layout_constraintStart_toStartOf="@id/iv_favor_header_image"
+            app:layout_constraintTop_toTopOf="@id/iv_favor_header_image" />
+
+        <TextView
+            android:id="@+id/tv_favor_header_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:textAppearance="@style/System3Bold"
+            app:layout_constraintEnd_toEndOf="@id/iv_favor_header_image"
+            app:layout_constraintStart_toStartOf="@id/iv_favor_header_image"
+            app:layout_constraintTop_toBottomOf="@id/iv_favor_header_image"
+            tools:text="@string/favor_marcket_kurly" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

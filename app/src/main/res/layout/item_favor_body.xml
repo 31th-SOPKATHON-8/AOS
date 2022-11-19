@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="data"
+            type="com.sopt.sopkathon8aos.data.entity.Post" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/shape_white_fill_8_rect"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="12dp">
+
+        <TextView
+            android:id="@+id/tv_favor_body_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@{data.postTitle}"
+            android:textAppearance="@style/System2Bold"
+            android:textColor="@color/grey_900"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="기사제목입니다" />
+
+        <TextView
+            android:id="@+id/tv_favor_body_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{data.createdAt}"
+            android:textAppearance="@style/System4Regular"
+            android:textColor="@color/grey_400"
+            app:layout_constraintStart_toStartOf="@id/tv_favor_body_title"
+            app:layout_constraintTop_toBottomOf="@id/tv_favor_body_title"
+            tools:text="2020.10.10." />
+
+        <TextView
+            android:id="@+id/tv_favor_body_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@{data.postContent}"
+            android:textAppearance="@style/System3Regular"
+            android:textColor="@color/grey_900"
+            app:layout_constraintStart_toStartOf="@id/tv_favor_body_date"
+            app:layout_constraintTop_toBottomOf="@id/tv_favor_body_date"
+            tools:text="새벽 배송에 앞장서는 마켓컬리 브랜드가 이번 배송\n기사에 대한 임금 문제로 ... 새벽 배송에 앞장서는\n마켓컬리 브랜드가 이번 배송 기사에 대한 임금 문제\n로 ...새벽 배송에 앞장서는 마새벽 배송에 앞장서..." />
+
+        <TextView
+            android:id="@+id/tv_favor_body_comment_cnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@{data.comment}"
+            android:textAppearance="@style/System4Regular"
+            android:textColor="@color/grey_400"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_favor_body_content"
+            tools:text="253" />
+
+        <ImageView
+            android:id="@+id/iv_favor_body_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:src="@drawable/ic_favor_comment"
+            app:layout_constraintBottom_toBottomOf="@id/tv_favor_body_comment_cnt"
+            app:layout_constraintEnd_toStartOf="@id/tv_favor_body_comment_cnt"
+            app:layout_constraintTop_toTopOf="@id/tv_favor_body_comment_cnt" />
+
+        <TextView
+            android:id="@+id/tv_favor_body_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@{data.like}"
+            android:textAppearance="@style/System4Regular"
+            android:textColor="@color/grey_400"
+            app:layout_constraintBottom_toBottomOf="@id/iv_favor_body_comment"
+            app:layout_constraintEnd_toStartOf="@id/iv_favor_body_comment"
+            app:layout_constraintTop_toTopOf="@id/iv_favor_body_comment"
+            tools:text="131" />
+
+        <ImageView
+            android:id="@+id/iv_favor_body_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:src="@drawable/ic_favor_like"
+            app:layout_constraintBottom_toBottomOf="@id/tv_favor_body_like"
+            app:layout_constraintEnd_toStartOf="@id/tv_favor_body_like"
+            app:layout_constraintTop_toTopOf="@id/tv_favor_body_like" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
