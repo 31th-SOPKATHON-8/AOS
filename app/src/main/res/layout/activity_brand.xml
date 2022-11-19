@@ -5,12 +5,17 @@
 
     <data>
 
+        <variable
+            name="vm"
+            type="com.sopt.sopkathon8aos.presentation.brand.BrandViewModel" />
+
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".presentation.brand.BrandActivity">
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
