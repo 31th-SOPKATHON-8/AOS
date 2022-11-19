@@ -3,4 +3,11 @@
 
     <!-- Util -->
     <string name="binding_error">Binding not initialized to reference the view.</string>
+
+    <!-- bottom_navigation -->
+    <string name="fragment_home">홈</string>
+    <string name="fragment_favor">찜</string>
+    <string name="fragment_my_page">마이페이지</string>
+    <string name="fragment_empty_1">미정</string>
+
 </resources>
