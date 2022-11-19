@@ -18,6 +18,9 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object RetrofitModule {
+    private const val CONTENT_TYPE = "Content-Type"
+    private const val JSON = "application/json"
+
     @Provides
     @Singleton
     fun providesInterceptor(): Interceptor =
@@ -26,6 +29,7 @@ object RetrofitModule {
                 proceed(
                     request()
                         .newBuilder()
+                        .addHeader(CONTENT_TYPE, JSON)
                         .build()
                 )
             }
