@@ -5,20 +5,27 @@
 
     <data>
 
+        <variable
+            name="data"
+            type="com.sopt.sopkathon8aos.data.entity.Brand" />
+
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:paddingHorizontal="10dp">
 
         <ImageView
             android:id="@+id/iv_favor_header_image"
+            android:src="@{data.brandImage}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/shape_grey900_fill_circle"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/shape_grey900_fill_circle" />
 
         <ImageView
             android:id="@+id/iv_favor_header_border"
@@ -35,11 +42,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="9dp"
+            android:text="@{data.brandName}"
             android:textAppearance="@style/System3Bold"
             app:layout_constraintEnd_toEndOf="@id/iv_favor_header_image"
             app:layout_constraintStart_toStartOf="@id/iv_favor_header_image"
             app:layout_constraintTop_toBottomOf="@id/iv_favor_header_image"
-            tools:text="@string/favor_marcket_kurly" />
+            tools:text="마켓컬리" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
