@@ -36,10 +36,10 @@ class FavorFragment : BindingFragment<FragmentFavorBinding>(R.layout.fragment_fa
 
     companion object {
         private val brandList = listOf(
-            Brand(0, "마켓컬리", 1),
-            Brand(1, "파리바게트", 1),
-            Brand(2, "남양유업", 1),
-            Brand(3, "미니스톱", 1)
+            Brand(0, "파리바게트", R.drawable.ic_favor_paris),
+            Brand(1, "남양유업", R.drawable.ic_favor_namyang),
+            Brand(2, "미니스톱", R.drawable.ic_favor_mini),
+            Brand(3, "삼성", R.drawable.ic_favor_samsung)
         )
     }
 }
