@@ -10,6 +10,7 @@
         android:name="com.sopt.sopkathon8aos.presentation.home.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home" />
+
     <fragment
         android:id="@+id/favorFragment"
         android:name="com.sopt.sopkathon8aos.presentation.favor.FavorFragment"
