@@ -27,7 +27,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".presentation.brand.BrandActivity"
-            android:exported="false"
+            android:exported="true"
             android:screenOrientation="portrait" />
         <activity
             android:name=".presentation.main.MainActivity"

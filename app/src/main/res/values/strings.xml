@@ -39,4 +39,7 @@
     <string name="favor_title">브랜드 찜</string>
     <string name="favor_int">%d</string>
 
+    <!-- Brand Activity -->
+    <string name="brand_body_title">이 브랜드의 눈칫밥 소식</string>
+
 </resources>
