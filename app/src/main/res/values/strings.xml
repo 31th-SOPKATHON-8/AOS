@@ -35,4 +35,8 @@
     <string name="home_content_article3">생계를 위해 브랜드를 바꿨다고 `보복출점`해 기존 가맹점을 궁지에 몬 `아산빵집사건`으로 국민적 공분을 산 SPC그룹 파리바게트...</string>
 
 
+    <!-- Favor Fragment -->
+    <string name="favor_title">브랜드 찜</string>
+    <string name="favor_int">%d</string>
+
 </resources>
