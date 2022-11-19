@@ -4,26 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
         <variable
             name="title"
             type="String" />
-        <variable
-            name="date"
-            type="String" />
+
         <variable
             name="content"
-            type="String" />
-        <variable
-            name="brand"
-            type="String" />
-        <variable
-            name="favor"
-            type="String" />
-        <variable
-            name="comment"
-            type="String" />
-        <variable
-            name="path"
             type="String" />
     </data>
 
@@ -41,17 +28,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{title}"
-            tools:text="@string/home_article"
             android:textAppearance="@style/System2Bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/home_article" />
 
         <TextView
             android:id="@+id/tv_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="2022.01.08"
-            android:text="@{date}"
+            android:text="@string/home_data"
             android:textAppearance="@style/System4Regular"
             android:textColor="@color/grey_400"
             app:layout_constraintStart_toStartOf="@+id/tv_article"
@@ -74,7 +60,7 @@
             android:layout_width="17dp"
             android:layout_height="17dp"
             android:layout_marginTop="8dp"
-            android:src="@{path}"
+            android:src="@drawable/ic_paris"
             app:layout_constraintStart_toStartOf="@+id/tv_content"
             app:layout_constraintTop_toBottomOf="@+id/tv_content" />
 
@@ -83,8 +69,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
-            android:text="@{brand}"
-            tools:text="마켓컬리"
+            android:text="@string/paris"
             android:textAppearance="@style/System4Regular"
             android:textColor="@color/grey_400"
             app:layout_constraintBottom_toBottomOf="@+id/iv_brand"
@@ -95,8 +80,8 @@
             android:id="@+id/iv_favor"
             android:layout_width="18dp"
             android:layout_height="18dp"
-            android:src="@drawable/ic_heart_gray"
             android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_heart_gray"
             app:layout_constraintBottom_toBottomOf="@+id/tv_favor"
             app:layout_constraintEnd_toStartOf="@+id/tv_favor"
             app:layout_constraintTop_toTopOf="@+id/tv_favor" />
@@ -106,10 +91,9 @@
             android:id="@+id/tv_favor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{favor}"
-            tools:text = "255"
-            android:textAppearance="@style/System4Regular"
             android:layout_marginEnd="8dp"
+            android:text="155"
+            android:textAppearance="@style/System4Regular"
             android:textColor="@color/grey_400"
             app:layout_constraintBottom_toBottomOf="@+id/iv_comment"
             app:layout_constraintEnd_toStartOf="@+id/iv_comment"
@@ -119,8 +103,8 @@
             android:id="@+id/iv_comment"
             android:layout_width="18dp"
             android:layout_height="18dp"
-            android:src="@drawable/ic_comment_gray"
             android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_comment_gray"
             app:layout_constraintBottom_toBottomOf="@+id/tv_comment"
             app:layout_constraintEnd_toStartOf="@+id/tv_comment"
             app:layout_constraintTop_toTopOf="@+id/tv_comment" />
@@ -129,8 +113,7 @@
             android:id="@+id/tv_comment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{comment}"
-            tools:text="188"
+            android:text="253"
             android:textAppearance="@style/System4Regular"
             android:textColor="@color/grey_400"
             app:layout_constraintBottom_toBottomOf="@+id/tv_brand"
