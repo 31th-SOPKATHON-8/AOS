@@ -11,6 +11,15 @@
     <string name="fragment_empty_1">미정</string>
 
     <!-- posting -->
+    <string name="posting_title">눈치 이슈</string>
+    <string name="posting_article_title">기사 제목 기사 제목 기사 제목 기사 제목 기사 제목 기사 제목 기사 제목 기사 제목</string>
+    <string name="posting_article_test">새벽 배송에 앞장서는 마켓컬리 브랜드가 이번 배송 기사에 대한 임금 문제로 ... 새벽 배송에 앞장서는 마켓컬리 브랜드가 이번 배송 기사에 대한 임금 문제로 ...새벽 배송에 앞...
+새벽 배송에 앞장서는 마켓컬리 브랜드가 이번 배송 기사에 대한 임금 문제로 ... 새벽 배송에 앞장서는 마켓컬리 브랜드가 이번 배송 기사에 대한 임금 문제로 ...새벽 배송에 앞...
+새벽 배송에 앞장서는 마켓컬리 브랜드가 이번 배송 기사에
+새벽 배송에 앞장서는 마켓컬리 브랜드가 이번 배송 기사에 대한 임금 문제로 ... 새벽 배송에 앞장서는 마켓컬리 브랜드
+새벽 배송에 앞장서는 마켓컬리</string>
+    <string name="posting_tumbs_up">호옹~</string>
+    <string name="posting_tumbs_down">찌릿!</string>
     <string name="posting_review_title">변화를 공유해요!</string>
     <string name="posting_review_sub_title">변화를 느낀 당신의 경험을 공유해주세요!</string>
 
