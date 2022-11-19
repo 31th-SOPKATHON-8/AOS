@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="title"
+            type="String" />
+        <variable
+            name="date"
+            type="String" />
+        <variable
+            name="content"
+            type="String" />
+        <variable
+            name="brand"
+            type="String" />
+        <variable
+            name="favor"
+            type="String" />
+        <variable
+            name="comment"
+            type="String" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/shape_white_fill_8_rect"
+        android:elevation="10dp"
+        android:paddingHorizontal="17dp"
+        android:paddingVertical="13dp">
+
+        <TextView
+            android:id="@+id/tv_article"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{title}"
+            tools:text="@string/home_article"
+            android:textAppearance="@style/System2Bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="2022.01.08"
+            android:text="@{date}"
+            android:textAppearance="@style/System4Regular"
+            android:textColor="@color/grey_400"
+            app:layout_constraintStart_toStartOf="@+id/tv_article"
+            app:layout_constraintTop_toBottomOf="@+id/tv_article" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@{content}"
+            android:textAppearance="@style/System4Regular"
+            android:textColor="@color/grey_900"
+            app:layout_constraintStart_toStartOf="@+id/tv_date"
+            app:layout_constraintTop_toBottomOf="@+id/tv_date"
+            tools:text="asdf\nasdf" />
+
+        <ImageView
+            android:id="@+id/iv_brand"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintStart_toStartOf="@+id/tv_content"
+            app:layout_constraintTop_toBottomOf="@+id/tv_content" />
+
+        <TextView
+            android:id="@+id/tv_brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:text="@{brand}"
+            tools:text="마켓컬리"
+            android:textAppearance="@style/System4Regular"
+            android:textColor="@color/grey_400"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_brand"
+            app:layout_constraintStart_toEndOf="@+id/iv_brand"
+            app:layout_constraintTop_toTopOf="@+id/iv_brand" />
+
+        <ImageView
+            android:id="@+id/iv_favor"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginEnd="6dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_favor"
+            app:layout_constraintEnd_toStartOf="@+id/tv_favor"
+            app:layout_constraintTop_toTopOf="@+id/tv_favor" />
+
+
+        <TextView
+            android:id="@+id/tv_favor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{favor}"
+            tools:text = "255"
+            android:textAppearance="@style/System4Regular"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/grey_400"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_comment"
+            app:layout_constraintEnd_toStartOf="@+id/iv_comment"
+            app:layout_constraintTop_toTopOf="@+id/iv_comment" />
+
+        <ImageView
+            android:id="@+id/iv_comment"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginEnd="6dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_comment"
+            app:layout_constraintEnd_toStartOf="@+id/tv_comment"
+            app:layout_constraintTop_toTopOf="@+id/tv_comment" />
+
+        <TextView
+            android:id="@+id/tv_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{comment}"
+            tools:text="188"
+            android:textAppearance="@style/System4Regular"
+            android:textColor="@color/grey_400"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_brand"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_brand" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
