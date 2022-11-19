@@ -8,6 +8,7 @@ data class BrandEntity(
     val brandId: Int,
     val brandName: String,
     val brandImage: String,
+    val brandDescription: String,
     @SerialName("Post")
     val post: List<Post>
 )

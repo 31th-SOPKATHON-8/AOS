@@ -1,4 +1,4 @@
-package com.sopt.sopkathon8aos.presentation.favor
+package com.sopt.sopkathon8aos.presentation.brand
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -12,17 +12,17 @@ import timber.log.Timber
 import javax.inject.Inject
 
 @HiltViewModel
-class FavorViewModel @Inject constructor(
+class BrandViewModel @Inject constructor(
     private val homeRepository: HomeRepository
 ) : ViewModel() {
-    private val _favorResult = MutableLiveData<BrandEntity>()
-    val favorResult: LiveData<BrandEntity> = _favorResult
+    private val _brandResult = MutableLiveData<BrandEntity>()
+    val brandResult: LiveData<BrandEntity> = _brandResult
 
-    fun getFavor(index: Int) {
+    fun getBrand(index: Int) {
         viewModelScope.launch {
             homeRepository.getBrand(index)
                 .onSuccess { response ->
-                    _favorResult.value = requireNotNull(response.data)
+                    _brandResult.value = requireNotNull(response.data)
                 }.onFailure { throwable ->
                     Timber.e(throwable.message)
                 }

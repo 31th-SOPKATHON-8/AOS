@@ -51,5 +51,7 @@
     <string name="posting_tumbs_down">찌릿!</string>
     <string name="posting_review_title">변화를 공유해요!</string>
     <string name="posting_review_sub_title">변화를 느낀 당신의 경험을 공유해주세요!</string>
+    <!-- Brand Activity -->
+    <string name="brand_body_title">이 브랜드의 눈칫밥 소식</string>
 
 </resources>

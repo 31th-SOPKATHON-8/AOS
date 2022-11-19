@@ -96,6 +96,7 @@
             <include
                 android:id="@+id/layout_article1"
                 layout="@layout/include_home_article"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 app:title="@{@string/home_title_article1}"
                 app:content="@{@string/home_content_article1}"

@@ -18,7 +18,7 @@ class FavorFragment : BindingFragment<FragmentFavorBinding>(R.layout.fragment_fa
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initAdapter()
-        favorViewModel.getBrand(0)
+        favorViewModel.getFavor(0)
     }
 
     private fun initAdapter() {
@@ -31,7 +31,7 @@ class FavorFragment : BindingFragment<FragmentFavorBinding>(R.layout.fragment_fa
     }
 
     private fun onClickHeader(index: Int) {
-        favorViewModel.getBrand(index)
+        favorViewModel.getFavor(index)
     }
 
     companion object {

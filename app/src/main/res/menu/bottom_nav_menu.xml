@@ -18,5 +18,5 @@
     <item
         android:id="@+id/empty_1"
         android:icon="@drawable/ic_article"
-        android:title="@string/fragment_newarticle" />
+        android:title="뉴아티클" />
 </menu>
