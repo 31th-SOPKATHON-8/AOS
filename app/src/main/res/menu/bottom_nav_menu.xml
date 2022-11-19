@@ -2,21 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/homeFragment"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/ic_home"
         android:title="@string/fragment_home" />
 
     <item
         android:id="@+id/favorFragment"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/ic_favor"
         android:title="@string/fragment_favor" />
 
     <item
         android:id="@+id/my_page"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/ic_my"
         android:title="@string/fragment_my_page" />
 
     <item
         android:id="@+id/empty_1"
-        android:icon="@drawable/ic_launcher_background"
-        android:title="@string/fragment_empty_1" />
+        android:icon="@drawable/ic_article"
+        android:title="@string/fragment_newarticle" />
 </menu>
