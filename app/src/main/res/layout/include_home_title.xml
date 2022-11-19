@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/flow_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="tv_fashion,tv_environment,tv_ingredient,tv_stationery"
+        app:flow_horizontalStyle="spread"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_fashion"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:text="@string/home_fashion"
+        android:textAppearance="@style/System3Bold" />
+
+    <TextView
+        android:id="@+id/tv_environment"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:text="@string/home_environment"
+        android:textAppearance="@style/System4Regular"
+        android:textColor="@color/grey_400" />
+
+    <TextView
+        android:id="@+id/tv_ingredient"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:text="@string/home_ingredient"
+        android:textAppearance="@style/System4Regular"
+        android:textColor="@color/grey_400" />
+
+    <TextView
+        android:id="@+id/tv_stationery"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:text="@string/home_stationery"
+        android:textAppearance="@style/System4Regular"
+        android:textColor="@color/grey_400" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="113dp"
+        android:layout_height="2dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_fashion"
+        app:layout_constraintEnd_toEndOf="@+id/tv_fashion"
+        app:layout_constraintStart_toStartOf="@+id/tv_fashion" />
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/grey_400"
+        app:layout_constraintBottom_toBottomOf="@+id/flow_tab"
+        app:layout_constraintStart_toStartOf="@+id/view3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
