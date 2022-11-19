@@ -10,4 +10,8 @@
     <string name="fragment_my_page">마이페이지</string>
     <string name="fragment_empty_1">미정</string>
 
+    <!-- posting -->
+    <string name="posting_review_title">변화를 공유해요!</string>
+    <string name="posting_review_sub_title">변화를 느낀 당신의 경험을 공유해주세요!</string>
+
 </resources>

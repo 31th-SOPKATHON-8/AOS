@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp">
+        <ImageView
+            android:id="@+id/iv_posting_review_user_img"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_posting_review_user_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="닉네임"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/grey_900"
+            android:layout_marginStart="15dp"
+            app:layout_constraintTop_toTopOf="@+id/iv_posting_review_user_img"
+            app:layout_constraintStart_toEndOf="@+id/iv_posting_review_user_img"/>
+
+        <TextView
+            android:id="@+id/tv_posting_review_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:text="날짜"
+            android:textSize="12sp"
+            android:textColor="@color/grey_400"
+            app:layout_constraintTop_toTopOf="@+id/tv_posting_review_user_nickname"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_posting_review_user_nickname"
+            app:layout_constraintStart_toEndOf="@+id/tv_posting_review_user_nickname"/>
+
+        <TextView
+            android:id="@+id/tv_posting_review_contents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="리뷰 내용"
+            android:textSize="14sp"
+            android:textColor="@color/grey_900"
+            android:layout_marginTop="2dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_posting_review_user_nickname"
+            app:layout_constraintStart_toStartOf="@+id/tv_posting_review_user_nickname"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
