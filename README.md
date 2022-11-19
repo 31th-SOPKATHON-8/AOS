@@ -1,3 +1,9 @@
+
+
+
+https://user-images.githubusercontent.com/84129098/202875650-713939a1-bd79-4e28-87e1-45d3031d5d0a.mov
+
+
 # 찌릿
 
 ### 눈치있는 브랜드 소비를 위한 아티클 큐레이션 및 커뮤니티 서비스
