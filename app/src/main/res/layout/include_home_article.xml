@@ -22,6 +22,9 @@
         <variable
             name="comment"
             type="String" />
+        <variable
+            name="path"
+            type="String" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -71,7 +74,7 @@
             android:layout_width="17dp"
             android:layout_height="17dp"
             android:layout_marginTop="8dp"
-            android:src="@mipmap/ic_launcher"
+            android:src="@{path}"
             app:layout_constraintStart_toStartOf="@+id/tv_content"
             app:layout_constraintTop_toBottomOf="@+id/tv_content" />
 
@@ -92,7 +95,7 @@
             android:id="@+id/iv_favor"
             android:layout_width="18dp"
             android:layout_height="18dp"
-            android:src="@mipmap/ic_launcher"
+            android:src="@drawable/ic_heart_gray"
             android:layout_marginEnd="6dp"
             app:layout_constraintBottom_toBottomOf="@+id/tv_favor"
             app:layout_constraintEnd_toStartOf="@+id/tv_favor"
@@ -116,7 +119,7 @@
             android:id="@+id/iv_comment"
             android:layout_width="18dp"
             android:layout_height="18dp"
-            android:src="@mipmap/ic_launcher"
+            android:src="@drawable/ic_comment_gray"
             android:layout_marginEnd="6dp"
             app:layout_constraintBottom_toBottomOf="@+id/tv_comment"
             app:layout_constraintEnd_toStartOf="@+id/tv_comment"
