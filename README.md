@@ -1,7 +1,5 @@
 
-
-
-https://user-images.githubusercontent.com/84129098/202875650-713939a1-bd79-4e28-87e1-45d3031d5d0a.mov
+https://user-images.githubusercontent.com/84129098/202876522-1650dd1a-88d5-4a72-b924-c5970bcac17e.mp4
 
 
 # 찌릿
