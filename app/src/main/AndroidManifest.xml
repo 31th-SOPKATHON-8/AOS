@@ -22,15 +22,17 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".presentation.main.MainActivity"
+            android:name=".presentation.posting.PostingActivity"
             android:exported="false"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait">
+
+        </activity>
         <activity
             android:name=".presentation.brand.BrandActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".presentation.posting.PostingActivity"
+            android:name=".presentation.main.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>

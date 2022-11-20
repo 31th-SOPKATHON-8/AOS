@@ -33,6 +33,10 @@ class PostingActivity : BindingActivity<ActivityPostingBinding>(R.layout.activit
 //                    viewModel.postingResult.value!!.data[0].postContent
 //            }
 //        }
+
+        binding.ivPostingBack.setOnSingleClickListener {
+            finish()
+        }
     }
 
     private fun addReview() {
